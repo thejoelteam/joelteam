@@ -100,7 +100,7 @@ $(document).ready(function() {
         arrows:true, // The arrows to slide
         // dots:true, // The dots under the slides
         adaptiveHeight:true, // All sliders get one height
-        slidesToShow:4, // How many slides in one row (if only one row using)
+        slidesToShow:3, // How many slides in one row (if only one row using)
         slidesToScroll:1,
         speed:1000, // Speed of scrolling
         easing:'ease', // The way of slide
@@ -112,26 +112,34 @@ $(document).ready(function() {
         pauseOnDotsHover:true,
         touchThreshold:10,
         waitForAnimate:true,
-        centerMode:false, // Centre the centre slide
+        centerMode:true, // Centre the centre slide
         variableWidth:false,
         // rows:1 - How many rows slider has
         // slidesPerRow:4 - How many slides one row has
         // vertical:true - Vertical slider
         responsive:[
             {
+                breakpoint: 1600,
+                setting: {
+                    centerMode:false,
+                }
+            },{
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 3,
+                    centerMode:false,
                 }
             },{
                 breakpoint: 916,
                 settings: {
                     slidesToShow:2,
+                    centerMode:false,
                 }
             },{
                 breakpoint: 650,
                 settings: {
                     slidesToShow:1,
+                    centerMode:false,
                 }
             }
         ],
@@ -144,9 +152,34 @@ $(document).on("click", ".FAQsquare", function() {
     $(this).addClass("_active");
     // clickCounter++;
 });
+$(document).on("dblclick", ".FAQsquare", function() {
+    $(this).removeClass("_active");
+    // clickCounter++;
+});
 // if (clickCounter == 2) {
 //     $(document).on("click", ".FAQsquare", function() {
 //         $(this).removeClass("_active");
 //         clickCounter++;
 //     });
 // }
+
+document.getElementById('RoadMap').onclick = function() {
+    var i = 'RoadMap';
+    document.title = i;
+}
+document.getElementById('Home').onclick = function() {
+    var i = 'Home';
+    document.title = i;
+}
+document.getElementById('Collections').onclick = function() {
+    var i = 'Collections';
+    document.title = i;
+}
+document.getElementById('FAQ').onclick = function() {
+    var i = 'FAQ';
+    document.title = i;
+}
+document.getElementById('Introduction').onclick = function() {
+    var i = 'Introduction';
+    document.title = i;
+}
