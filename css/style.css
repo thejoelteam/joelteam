@@ -593,7 +593,7 @@ body._touch .menu__list > li._active .menu__arrow {
 
 @media (max-width: 767px) {
     .mobileLinks {
-        margin-top: 76%;
+        margin-top: 66%;
         margin-left: auto;
         margin-right: auto;
     }
