@@ -62,7 +62,7 @@ body.lock {
     margin: 0px 0px 0px 0px;
     padding-top: 350px;
     padding-left: 275px;
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
@@ -91,7 +91,7 @@ body.lock {
     margin: 0px 0px 20px 0px;
     margin-bottom: 40px;
     text-align: center;
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -156,7 +156,7 @@ body.lock {
 }
 .menu__link {
     color: #000;
-    font-family: Quantico;
+    font-family: Rubik;
     font-size: 20px;
     text-decoration: none;
 }
@@ -204,7 +204,7 @@ body.lock {
     margin-top: 18px;
 }
 .square h2 {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 13px;
@@ -215,7 +215,7 @@ body.lock {
     margin-top: 54px;
 }
 .square h1{
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -227,7 +227,7 @@ body.lock {
     margin-top: 22px;
 }
 .square h3{
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -349,7 +349,7 @@ body.lock {
 
 
 .introSection_1 h1 {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -360,14 +360,14 @@ body.lock {
     margin-left: 300px;
 }
 .introSection_1 p {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-size: 18px;
 }
 
 
 .introSection_2 h1 {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -375,14 +375,14 @@ body.lock {
     position: absolute;
 }
 .introSection_2 p {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-size: 18px;
     margin-top: 175px;
     position: absolute;
 }
 .twitter p {
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-style: normal;
     font-size: 18px;
     margin-top: 216px;
@@ -444,7 +444,7 @@ body._touch .menu__list > li._active .menu__arrow {
     text-align: center;
     color: #000;
     justify-content: center;
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-size: 24px;
     opacity: 1;
     transition: 0.1s ease;
@@ -455,7 +455,7 @@ body._touch .menu__list > li._active .menu__arrow {
     position: relative;
     color: #000;
     justify-content: center;
-    font-family: 'Quantico';
+    font-family: 'Rubik';
     font-size: 24px;
     opacity: 0;
     transition: 0.1s ease;
