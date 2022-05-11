@@ -57,7 +57,8 @@ body.lock {
     max-width: 262px;
 }
 .pageWithBG {
-    background-image: url("https://pbs.twimg.com/media/FJmrmjNWYAAvhNi?format=jpg&name=large");
+    background-image: url("../img/rrr.png");
+    width: 100%;
 }
 .page__title {
     margin: 0px 0px 0px 0px;
