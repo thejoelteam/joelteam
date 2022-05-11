@@ -44,6 +44,7 @@ body.lock {
 }
 .page__section_2 {
     background-color: #fff;
+    max-width: 1200px;
 }
 .page__section_3 {
     background-color: #fff;
@@ -346,6 +347,17 @@ body.lock {
    opacity: 1;
    transform: scale(1.05); 
 } */
+.slider__item img {
+    width: 264px;
+    height: 264px;
+}
+
+.roadmap__text h1 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 28px;
+}
 
 
 .introSection_1 h1 {
