@@ -54,7 +54,7 @@ body.lock {
     max-width: 1400px;
 }
 .page__section_6 {
-    max-width: 262px;
+    max-width: 200px;
 }
 .pageWithBG {
     background-image: url("../img/rrr.png");
@@ -132,6 +132,9 @@ body.lock {
 
 }
 .footer {
+    justify-content: center;
+    align-items: center;
+    display: block;
     margin-top: 40px;
     height: 60px;
     background: #f4f4f4;
@@ -239,6 +242,7 @@ body.lock {
 
 .socialsImg {
     width: 46px;
+    display: inline;
     margin-top: 8px;
     height: 80%;
     margin-left: 16px;
